@@ -91,10 +91,24 @@ c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
 ### Kesulitan
   - Kesulitan untuk menemukan password dari file txt
 
-## Soal 7
+## Soal 6
 ### Soal
+PESAN TERSEMBUNYI
+
+Seorang anak bernama Udin Berteman dengan SlameT yang merupakan seorang penggemar film detektif. sebagai teman yang baik, Ia selalu mengajak slamet untuk bermain valoranT bersama. suatu malam, terjadi sebuah hal yang tak terdUga. ketika udin mereka membuka game tersebut, laptop udin menunjukkan sebuah field text dan Sebuah kode Invalid bertuliskan "server SOURCE ADDRESS 7812 is invalid". ketika ditelusuri di google, hasil pencarian hanya menampilkan a1 e5 u21. jiwa detektif slamet pun bergejolak. bantulah udin dan slamet untuk menemukan solusi kode error tersebut.
 ### Penyelesaian
+  - Pesan tersembunyi pada soal terletak pada setiap huruf kapital yang ada, jika digabungkan akan menjadi SUBSTITUSI
+  - maksud dari "SOURCE ADDRESS 7812 is invalid" adalah ip source dari packet no 7812
+  - kemudian ip source tersebut di subsitusi huruf menjadi angka dimana a=1, e=5 dan u=21
+  - didapatkan solusi kode tersebut yaitu : JDRNJA
+
+![no6 1](https://github.com/MyNameIsSyukra/Jarkom-Modul-1-F08-2023/assets/90988646/67525856-d6df-4062-a0bc-c045e2f5e7bd)
+![no 6 2](https://github.com/MyNameIsSyukra/Jarkom-Modul-1-F08-2023/assets/90988646/fe18e7f2-ff49-46ec-a228-5cede1855921)
+
 ### Kesulitan
+  - Sulit untuk mencerna maksud soal
+
+
 
 ## Soal 7
 ### Soal
