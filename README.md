@@ -91,3 +91,62 @@ c. Dari semua alamat IP yang tercapture, IP berapakah yang merupakan public IP?
 ### Kesulitan
   - Kesulitan untuk menemukan password dari file txt
 
+## Soal 7
+### Soal
+### Penyelesaian
+### Kesulitan
+
+## Soal 7
+### Soal
+Berapa jumlah packet yang menuju IP 184.87.193.88?
+
+### Penyelesaian
+  - Display capture : ip.dst == 184.87.193.88
+![image](https://github.com/MyNameIsSyukra/Jarkom-Modul-1-F08-2023/assets/85614845/bc92ddc0-e259-4243-9117-adc1a8bbeb58)
+### Kesulitan
+  - 
+
+
+## Soal 8
+### Soal 
+Berikan kueri filter sehingga wireshark hanya mengambil semua protokol paket yang menuju port 80! (Jika terdapat lebih dari 1 port, maka urutkan sesuai dengan abjad)!
+### Penyelesaian
+  - tcp.dstport == 80 || udp.dstport == 80
+### Kesulitan
+  - 
+
+## Soal 9
+### Soal
+Berikan kueri filter sehingga wireshark hanya mengambil paket yang berasal dari alamat 10.51.40.1 tetapi tidak menuju ke alamat 10.39.55.34!
+### Penyelesaian
+  - ip.src == 10.51.40.1 && ip.dst != 10.39.55.34
+### Kesulitan
+  - 
+
+## Soal 10
+### Soal
+Sebutkan kredensial yang benar ketika user mencoba login menggunakan Telnet!
+### Penyelesaian
+  - Display Capture : telnet.data == “Login: “
+  - Click kanan->follow->tcp stream
+![image](https://github.com/MyNameIsSyukra/Jarkom-Modul-1-F08-2023/assets/85614845/fd541c35-240f-4741-80cf-ba5f306599e4)
+![image](https://github.com/MyNameIsSyukra/Jarkom-Modul-1-F08-2023/assets/85614845/611f9299-9b62-43b7-a8ed-e990b4e8bea6)
+
+### Kesulitan
+  - Sempat terkecoh dengan huruf yang terdobel dobel
+
+## Capture Flag
+![image](https://github.com/MyNameIsSyukra/Jarkom-Modul-1-F08-2023/assets/85614845/f99f0253-39c9-43ae-b795-b3f141f78a93)
+![image](https://github.com/MyNameIsSyukra/Jarkom-Modul-1-F08-2023/assets/85614845/35e5108f-442d-4897-b8a0-d9c5c7d31bf1)
+![image](https://github.com/MyNameIsSyukra/Jarkom-Modul-1-F08-2023/assets/85614845/35df66f9-a217-4fb7-9e04-edbe08edaf07)
+![image](https://github.com/MyNameIsSyukra/Jarkom-Modul-1-F08-2023/assets/85614845/ac1655ab-d75c-49a8-a924-4e98edda8e17)
+![image](https://github.com/MyNameIsSyukra/Jarkom-Modul-1-F08-2023/assets/85614845/4988718d-6652-462a-b914-57e388832de7)
+![image](https://github.com/MyNameIsSyukra/Jarkom-Modul-1-F08-2023/assets/85614845/d0bce95b-eca9-40f5-8274-3bcda31da669)
+![image](https://github.com/MyNameIsSyukra/Jarkom-Modul-1-F08-2023/assets/85614845/bfcf23ce-409f-43e1-a7c8-2835b98e72ee)
+![image](https://github.com/MyNameIsSyukra/Jarkom-Modul-1-F08-2023/assets/85614845/3a01527c-cf7f-444a-b85d-7e7e7bab6919)
+![image](https://github.com/MyNameIsSyukra/Jarkom-Modul-1-F08-2023/assets/85614845/5658740c-ebfc-43e3-9da7-a92f1c7c65f5)
+
+
+
+
+
